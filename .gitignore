@@ -1,3 +1,16 @@
+# Ignore everything in there
+Assets/*
+Some Video/*
+Packages/*
+obj/*
+Logs/*
+Blender/*
+Library/*
+
+# However, include this
+!Assets/Script/
+!Assets/Script.meta
+
 # This .gitignore file should be placed at the root of your Unity project directory
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
@@ -70,3 +83,5 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+.vsconfig
+ALALA.txt
